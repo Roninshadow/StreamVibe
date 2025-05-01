@@ -33,3 +33,269 @@ body {
   font-family: "Manrope", sans-serif;
   background-color: var(--black-08);
 }
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+
+.head {
+  background-image: url(../image/photo/main-bg-head.jpg);
+  background-repeat: no-repeat;
+
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
+.header__nav-list {
+  display: flex;
+  padding: 10px;
+  background-color: var(--black-06);
+  border: 4px solid;
+  border-color: var(--black-12);
+  border-radius: 12px;
+}
+.header__nav-item {
+  padding: 14px 24px;
+  flex-grow: 1;
+}
+.active-nav {
+  background-color: var(--black-10);
+  border-radius: 8px;
+}
+.nav__item-link {
+    color: var(--White);
+}
+.header__icons {
+  display: flex;
+  gap: 30px;
+}
+.header__icon-center {
+  display: grid;
+  place-items: center;
+  margin-top: 64px;
+  margin-bottom: 131px;
+}
+.header__title {
+  color: var(--White);
+  font-size: 58px;
+  font-weight: 700;
+  text-align: center;
+}
+.header__text {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-top: 14px;
+  margin-bottom: 50px;
+  max-width: 1100px;
+  text-align: center;
+  color: var(--grey-60);
+}
+.header__button {
+  background-color: var(--red-45);
+  padding: 18px 24px;
+  display: flex;
+  display: 4px;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.button__text {
+  color: var(--White);
+  font-size: 18px;
+  font-weight: 600;
+}
+.category {
+  margin-top: 227px;
+}
+.category__top {
+  display: flex;
+  justify-content: space-between;
+}
+.top__text-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--White);
+}
+.top__text-text {
+    font-size: 18px;
+  font-weight: 400;
+  color: var(--grey-60);
+}
+.category__slider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background-color: var(--black-06);
+  border: 1px solid;
+  border-color: var(--black-12);
+  border-radius: 12px;
+}
+.category__slider-left {
+  padding: 14px;
+  background-color: var(--black-10);
+  border: 1px solid;
+  border-color: var(--black-12);
+  border-radius: 8px;
+}
+.slider__line-list {
+  display: flex;
+  gap: 3px;
+}
+.slider__line-item {
+  width: 16px;
+  height: 4px;
+  background-color: var(--black-20);
+  border-radius: 100px;
+}
+.active-slider {
+  background-color: var(--red-45);
+  width: 23px;
+}
+.category__slider-right {
+  padding: 14px;
+  background-color: var(--black-10);
+  border: 1px solid;
+  border-color: var(--black-12);
+  border-radius: 8px;
+}
+.category__cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 80px;
+}
+.category__card {
+  padding: 28px;
+  background-color: var(--black-10);
+  border: 1px solid;
+  border-radius: 12px;
+  border-color: var(--black-15);
+}
+.category__card-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+}
+.category__card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.card__bottom-text {
+  color: var(--White);
+  font-size: 18px;
+  font-weight: 600;
+}
+.devices {
+}
+.devices__title {
+}
+.devices__text {
+}
+.devices__cards {
+}
+.devices__card {
+}
+.devices__card-top {
+}
+.card__top-icon {
+}
+.card__top-title {
+}
+.devices__card-text {
+}
+.faq {
+}
+.faq__top {
+}
+.faq__top-texts {
+}
+.faq__top-title {
+}
+.faq__top-text {
+}
+.faq__top-button {
+}
+.faq__questions {
+}
+.faq__question {
+}
+.faq__question-number {
+}
+.faq__question-question {
+}
+.faq__question-answer {
+}
+.faq__question-open {
+}
+.faq__question-close {
+}
+.price {
+}
+.price__top {
+}
+.prise__texts {
+}
+.price__title {
+}
+.price__text {
+}
+.price__cards {
+}
+.price__card {
+}
+.price__card-title {
+}
+.price__card-text {
+}
+.price__card-plan {
+}
+.card__plan-price {
+}
+.card__plan-time {
+}
+.price__card-buttons {
+}
+.card__buttons-free {
+}
+.card__buttons-choose {
+}
+.start {
+}
+.start__content {
+}
+.start__content-texts {
+}
+.content__texts-title {
+}
+.content__texts-text {
+}
+.start__content-button {
+}
+.footer {
+}
+.footer__nav-list {
+}
+.footer__nav-item {
+}
+.nav__item-title {
+}
+.nav__item-list {
+}
+.item__list-item {
+}
+.connect__icon {
+}
+.copyrighting {
+}
+.copyrighting__streamvibe {
+}
+.copyrighting__documents-list {
+}
+.copyrighting__documents-item {
+}
