@@ -295,7 +295,9 @@
 			<div class="devices__cards">
 				<div class="devices__card">
 					<div class="devices__card-top">
-						<img src="image/icons/phone.svg" alt="" class="card__top-icon" />
+						<div class="deviced__card-icon">
+							<img src="image/icons/phone.svg" alt="" class="card__top-icon" />
+						</div>
 						<h3 class="card__top-title">Smartphones</h3>
 					</div>
 					<p class="devices__card-text">
@@ -305,7 +307,9 @@
 				</div>
 				<div class="devices__card">
 					<div class="devices__card-top">
-						<img src="image/icons/tablet.svg" alt="" class="card__top-icon" />
+						<div class="deviced__card-icon">
+							<img src="image/icons/tablet.svg" alt="" class="card__top-icon" />
+						</div>
 						<h3 class="card__top-title">Tablet</h3>
 					</div>
 					<p class="devices__card-text">
@@ -315,7 +319,9 @@
 				</div>
 				<div class="devices__card">
 					<div class="devices__card-top">
-						<img src="image/icons/tv.svg" alt="" class="card__top-icon" />
+						<div class="deviced__card-icon">
+							<img src="image/icons/tv.svg" alt="" class="card__top-icon" />
+						</div>
 						<h3 class="card__top-title">Smart TV</h3>
 					</div>
 					<p class="devices__card-text">
@@ -325,7 +331,9 @@
 				</div>
 				<div class="devices__card">
 					<div class="devices__card-top">
-						<img src="image/icons/laptop.svg" alt="" class="card__top-icon" />
+						<div class="deviced__card-icon">
+							<img src="image/icons/laptop.svg" alt="" class="card__top-icon" />
+						</div>
 						<h3 class="card__top-title">Laptops</h3>
 					</div>
 					<p class="devices__card-text">
@@ -335,7 +343,13 @@
 				</div>
 				<div class="devices__card">
 					<div class="devices__card-top">
-						<img src="image/icons/console.svg" alt="" class="card__top-icon" />
+						<div class="deviced__card-icon">
+							<img
+								src="image/icons/console.svg"
+								alt=""
+								class="card__top-icon"
+							/>
+						</div>
 						<h3 class="card__top-title">Gaming Consoles</h3>
 					</div>
 					<p class="devices__card-text">
@@ -345,7 +359,9 @@
 				</div>
 				<div class="devices__card">
 					<div class="devices__card-top">
-						<img src="image/icons/vr.svg" alt="" class="card__top-icon" />
+						<div class="deviced__card-icon">
+							<img src="image/icons/vr.svg" alt="" class="card__top-icon" />
+						</div>
 						<h3 class="card__top-title">VR Headsets</h3>
 					</div>
 					<p class="devices__card-text">
@@ -368,80 +384,80 @@
 				</div>
 				<button class="faq__top-button">Ask a Question</button>
 			</div>
-			<div class="faq__questions">
-				<div class="faq__question">
-					<h4 class="faq__question-number">01</h4>
-					<details class="faq__question-question">
-						<summary class="faq__question-answer">What is StreamVibe?</summary>
-						StreamVibe is a streaming service that allows you to watch movies
-						and shows on demand.
-					</details>
+			<ul class="faq__question-list">
+				<li class="faq__question-item">
+					<div class="faq__question-left">
+						<h4 class="faq__question-number">01</h4>
+						<h3 class="faq__question-question">What is StreamVibe?</h3>
+						<p class="faq__question-answer hidden">
+							StreamVibe is a streaming service that allows you to watch movies
+							and shows on demand.
+						</p>
+					</div>
 					<img src="image/icons/minus.svg" alt="" class="faq__question-open" />
-				</div>
-				<div class="faq__question">
-					<h4 class="faq__question-number">02</h4>
-					<details class="faq__question-question">
-						<summary class="faq__question-answer">
+				</li>
+				<li class="faq__question-item">
+					<div class="faq__question-left">
+						<h4 class="faq__question-number">02</h4>
+						<h3 class="faq__question-question">
 							How much does StreamVibe cost?
-						</summary>
-					</details>
+						</h3>
+					</div>
 					<img src="image/icons/plus.svg" alt="" class="faq__question-close" />
-				</div>
-				<div class="faq__question">
-					<h4 class="faq__question-number">03</h4>
-					<details class="faq__question-question">
-						<summary class="faq__question-answer">
+				</li>
+				<li class="faq__question-item">
+					<div class="faq__question-left">
+						<h4 class="faq__question-number">03</h4>
+						<h3 class="faq__question-question">
 							What content is available on StreamVibe?
-						</summary>
-					</details>
+						</h3>
+					</div>
 					<img src="image/icons/plus.svg" alt="" class="faq__question-close" />
-				</div>
-				<div class="faq__question">
-					<h4 class="faq__question-number">04</h4>
-					<details class="faq__question-question">
-						<summary class="faq__question-answer">
-							How can I watch StreamVibe?
-						</summary>
-					</details>
+				</li>
+				<li class="faq__question-item">
+					<div class="faq__question-left">
+						<h4 class="faq__question-number">04</h4>
+						<h3 class="faq__question-question">How can I watch StreamVibe?</h3>
+					</div>
 					<img src="image/icons/plus.svg" alt="" class="faq__question-close" />
-				</div>
-				<div class="faq__question">
-					<h4 class="faq__question-number">05</h4>
-					<details class="faq__question-question">
-						<summary class="faq__question-answer">
+				</li>
+				<li class="faq__question-item">
+					<div class="faq__question-left">
+						<h4 class="faq__question-number">05</h4>
+						<h3 class="faq__question-question">
 							How do I sign up for StreamVibe?
-						</summary>
-					</details>
+						</h3>
+					</div>
 					<img src="image/icons/plus.svg" alt="" class="faq__question-close" />
-				</div>
-				<div class="faq__question">
-					<h4 class="faq__question-number">06</h4>
-					<details class="faq__question-question">
-						<summary class="faq__question-answer">
+				</li>
+				<li class="faq__question-item">
+					<div class="faq__question-left">
+						<h4 class="faq__question-number">06</h4>
+						<h3 class="faq__question-question">
 							What is the StreamVibe free trial?
-						</summary>
-					</details>
+						</h3>
+					</div>
 					<img src="image/icons/plus.svg" alt="" class="faq__question-close" />
-				</div>
-				<div class="faq__question">
-					<h4 class="faq__question-number">07</h4>
-					<details class="faq__question-question">
-						<summary class="faq__question-answer">
+				</li>
+				<li class="faq__question-item">
+					<div class="faq__question-left">
+						<h4 class="faq__question-number">07</h4>
+						<h3 class="faq__question-question">
 							How do I contact StreamVibe customer support?
-						</summary>
-					</details>
+						</h3>
+					</div>
 					<img src="image/icons/plus.svg" alt="" class="faq__question-close" />
-				</div>
-				<div class="faq__question">
-					<h4 class="faq__question-number">08</h4>
-					<details class="faq__question-question">
-						<summary class="faq__question-answer">
+				</li>
+				<li class="faq__question-item">
+					<div class="faq__question-left">
+						<h4 class="faq__question-number">08</h4>
+						<h3 class="faq__question-question">
 							What are the StreamVibe payment methods?
-						</summary>
-					</details>
+						</h3>
+					</div>
 					<img src="image/icons/plus.svg" alt="" class="faq__question-close" />
-				</div>
-			</div>
+				</li>
+			</ul>
 		</div>
 	</section>
 	<section class="price">
@@ -570,18 +586,18 @@
 				</li>
 				<li class="footer__nav-item">
 					<h4 class="nav__item-title">Connect With Us</h4>
-					<ul class="nav__item-list">
-						<li class="item__list-item">
+					<ul class="contact__item-list">
+						<li class="item__list-icon">
 							<img
 								src="image/icons/facebook.svg"
 								alt=""
 								class="connect__icon"
 							/>
 						</li>
-						<li class="item__list-item">
+						<li class="item__list-icon">
 							<img src="image/icons/twiter.svg" alt="" class="connect__icon" />
 						</li>
-						<li class="item__list-item">
+						<li class="item__list-icon">
 							<img src="image/icons/in.svg" alt="" class="connect__icon" />
 						</li>
 					</ul>

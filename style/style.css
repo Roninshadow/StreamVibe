@@ -61,6 +61,7 @@ body {
 .header__nav-item {
   padding: 14px 24px;
   flex-grow: 1;
+  color: var(--White);
 }
 .active-nav {
   background-color: var(--black-10);
@@ -120,6 +121,7 @@ body {
   font-size: 38px;
   font-weight: 700;
   color: var(--White);
+  margin-bottom: 14px;
 }
 .top__text-text {
     font-size: 18px;
@@ -185,6 +187,7 @@ body {
 .category__card-bottom {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 .card__bottom-text {
   color: var(--White);
@@ -192,110 +195,286 @@ body {
   font-weight: 600;
 }
 .devices {
+  margin-top: 134px;
 }
 .devices__title {
+  color: var(--White);
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 14px;
 }
 .devices__text {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--grey-60);
+  max-width: 1300px;
 }
 .devices__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px;
+  margin-top: 80px;
 }
 .devices__card {
+  background: linear-gradient(to top right, #000000, #2c0000);
+  padding: 50px;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--black-15);
 }
 .devices__card-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.deviced__card-icon {
+  width: 72px;
+  height: 72px;
+  background-color: var(--black-08);
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--black-12);
 }
 .card__top-icon {
+  padding: 16px;
 }
 .card__top-title {
+  color: var(--White);
+  font-size: 24px;
+  font-weight: 600;
 }
 .devices__card-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--grey-60);
+  margin-top: 30px;
+
+
 }
 .faq {
+  margin-top: 150px;
 }
 .faq__top {
-}
-.faq__top-texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .faq__top-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--White);
 }
 .faq__top-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--grey-60);
 }
 .faq__top-button {
+  color: var(--White);
+  background-color: var(--red-45);
+  padding: 18px 24px;
+  font-weight: 600;
 }
-.faq__questions {
+.faq__question-list {
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+  margin-top: 80px;
 }
-.faq__question {
+.hidden {
+  display: none;
+}
+.faq__question-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px;
+  margin-right: 80px;
+}
+.faq__question-left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 .faq__question-number {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--White);
+  padding: 20px;
+  background-color: var(--black-12);
+  border: 1px solid;
+  border-color: var(--black-15);
+  border-radius: 10px;
 }
 .faq__question-question {
-}
-.faq__question-answer {
-}
-.faq__question-open {
-}
-.faq__question-close {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--White);
 }
 .price {
+  margin-top: 150px;
 }
 .price__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .prise__texts {
 }
 .price__title {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--White);
+  margin-bottom: 14px;
 }
 .price__text {
+font-size: 18px;
+font-weight: 400;
+color: var(--grey-60);
 }
 .price__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 80px;
 }
 .price__card {
+  padding: 50px;
+  background-color: var(--black-10);
+  border: 1px solid;
+  border-color: var(--black-15);
+  border-radius: 12px;
 }
 .price__card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--White);
 }
 .price__card-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--grey-60);
+  margin-top: 16px;
 }
 .price__card-plan {
+  display: flex;
+  margin-top: 50px;
 }
 .card__plan-price {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--White);
 }
 .card__plan-time {
+  color: var(--grey-60);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 22px;
 }
 .price__card-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
 }
 .card__buttons-free {
+  padding: 18px 24px;
+  color: var(--White);
+  background-color: var(--black-08);
+  border: 1px solid;
+  border-color: var(--black-15);
+  border-radius: 8px;
 }
 .card__buttons-choose {
-}
-.start {
+  padding: 18px 44px;
+  color: var(--White);
+  background-color: var(--red-45);
+  border-radius: 8px;
 }
 .start__content {
-}
-.start__content-texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 80px;
+  background-color: var(--black-06);
+  margin-top: 150px;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--black-15);
 }
 .content__texts-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--White);
 }
 .content__texts-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--grey-60);
 }
 .start__content-button {
+  background-color: var(--red-45);
+  padding: 18px 24px;
+  color: var(--White);
+  border-radius: 8px;
+  font-weight: 600;
 }
 .footer {
+  background-color: var(--black-06);
+  padding: 100px 162px 50px;
+  margin-top: 150px;
 }
 .footer__nav-list {
+  display: flex;
+  justify-content: space-between;
 }
 .footer__nav-item {
+  color: var(--White);
 }
 .nav__item-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
 }
 .nav__item-list {
+  color: var(--grey-60);
 }
 .item__list-item {
+    margin-bottom: 14px;
 }
-.connect__icon {
+.nav__item-item:last-child {
+  margin-bottom: 0;
+}
+.contact__item-list {
+  display: flex;
+  gap: 14px;
+}
+.item__list-icon {
+  padding: 16px;
+  background-color: var(--black-10);
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--black-15);
 }
 .copyrighting {
+  padding-top: 24px;
+  display: flex;
+  border-top: 1px solid;
+  border-color: var(--black-15);
+  margin-top: 100px;
+  justify-content: space-between;
 }
 .copyrighting__streamvibe {
+  color: var(--grey-60);
 }
 .copyrighting__documents-list {
+  display: flex;
 }
 .copyrighting__documents-item {
+  color: var(--grey-60);
+  border-right: 1px solid;
+  border-color: var(--black-15);
+  padding: 0 20px;
+}
+.copyrighting__documents-item:last-child {
+  border-right: none;
+  padding-right: 0;
 }
